@@ -1,4 +1,4 @@
-# 📰 Fake News Detection Web App
+# 📰 Fake News Detection Project
 
 This is a simple web application that predicts whether a news article or headline is **Real** or **Fake**, built using **Python**, **Flask**, **scikit-learn**, and **HTML/CSS**.
 
@@ -28,4 +28,13 @@ This is a simple web application that predicts whether a news article or headlin
 
 ## 📂 Project Structure
 
-project-folder/ │ ├── app.py # Flask backend ├── train_model.py # Script to train and save the model ├── model.pkl # Trained machine learning model ├── vectorizer.pkl # Saved TfidfVectorizer ├── train.csv # Dataset used for training │ └── templates/ └── index.html # Frontend HTML with inline CSS
+project-folder/
+│
+├── app.py             # Flask backend server
+├── train_model.py     # Script to train and save the machine learning model
+├── model.pkl          # Trained Logistic Regression model (saved using pickle)
+├── vectorizer.pkl     # Saved TfidfVectorizer (used for text transformation)
+├── train.csv          # Dataset used for training the model
+│
+└── templates/
+    └── index.html     # Frontend HTML page with inline CSS styling
